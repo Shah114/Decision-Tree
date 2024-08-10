@@ -41,4 +41,3 @@ Attribute selection measure is a heuristic for selecting the splitting criterion
 2. Gain Ratio
 3. Gini Index. <br/>
 <br/>
-
