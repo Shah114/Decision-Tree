@@ -15,3 +15,6 @@ The CART algorithm provides a foundation for other important algorithms like bag
 **Decision Tree algorithm terminology** <br/>
 n a Decision Tree algorithm, there is a tree like structure in which each internal node represents a test on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label. The paths from the root node to leaf node represent classification rules. <br/>
 We can see that there is some terminology involved in Decision Tree algorithm. The terms involved in Decision Tree algorithm are as follows:
+* **Root Node** - It represents the entire population or sample. This further gets divided into two or more homogeneous sets.
+* **Splitting** - It is a process of dividing a node into two or more sub-nodes.
+*  
