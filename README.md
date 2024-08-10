@@ -23,3 +23,12 @@ We can see that there is some terminology involved in Decision Tree algorithm. T
 * **Branch/Sub-Tree** - A sub-section of an entire tree is called a branch or sub-tree.
 * **Parent and Child Node** - A node, which is divided into sub-nodes is called the parent node of sub-nodes where sub-nodes are the children of a parent node. <br/>
 <br/>
+
+**How does the Decision Tree Algorithm Work?** <br/>
+The basic idea behind any decision tree algorithm is as follows:
+1- Select the best attribute using Attribute Selection Measures(ASM) to split the records. <br/>
+2- Make that attribute a decision node and breaks the dataset into smaller subsets. <br/>
+3- Starts tree building by repeating this process recursively for each child until one of the condition will match:
+ * All the tuples belong to the same attribute value.
+ * There are no more remaining attributes.
+ * There are no more instances.
