@@ -32,4 +32,13 @@ The basic idea behind any decision tree algorithm is as follows:
 3. Starts tree building by repeating this process recursively for each child until one of the condition will match:
  * All the tuples belong to the same attribute value.
  * There are no more remaining attributes.
- * There are no more instances.
+ * There are no more instances. <br/>
+<br/>
+
+**Attribute Selection Measures** <br/>
+Attribute selection measure is a heuristic for selecting the splitting criterion that partition data into the best possible manner. It is also known as splitting rules because it helps us to determine breakpoints for tuples on a given node. ASM provides a rank to each feature(or attribute) by explaining the given dataset. Best score attribute will be selected as a splitting attribute (Source). In the case of a continuous-valued attribute, split points for branches also need to define. Most popular selection measures are:
+1. Information Gain
+2. Gain Ratio
+3. Gini Index. <br/>
+<br/>
+
