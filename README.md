@@ -17,4 +17,9 @@ n a Decision Tree algorithm, there is a tree like structure in which each intern
 We can see that there is some terminology involved in Decision Tree algorithm. The terms involved in Decision Tree algorithm are as follows:
 * **Root Node** - It represents the entire population or sample. This further gets divided into two or more homogeneous sets.
 * **Splitting** - It is a process of dividing a node into two or more sub-nodes.
-*  
+* **Decision Node** - When a sub-node splits into further sub-nodes, then it is called a decision node.
+* **Leaf/Terminal Node** - Nodes that do not split are called Leaf or Terminal nodes.
+* **Pruning** - When we remove sub-nodes of a decision node, this process is called pruning. It is the opposite process of splitting.
+* **Branch/Sub-Tree** - A sub-section of an entire tree is called a branch or sub-tree.
+* **Parent and Child Node** - A node, which is divided into sub-nodes is called the parent node of sub-nodes where sub-nodes are the children of a parent node. <br/>
+<br/>
