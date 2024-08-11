@@ -49,3 +49,5 @@ Information gain is biased for the attribute with many outcomes. It means it pre
 C4.5, an improvement of ID3, uses an extension to information gain known as the gain ratio. Gain ratio handles the issue of bias by normalizing the information gain using Split Info. Java implementation of the C4.5 algorithm is known as J48, which is available in WEKA data mining tool. <br/>
 
 * **Gini Index** <br/>
+Another decision tree algorithm CART (Classification and Regression Tree) uses the Gini method to create split points. <br/>
+The Gini Index considers a binary split for each attribute. You can compute a weighted sum of the impurity of each partition. In case of a discrete-valued attribute, the subset that gives the minimum gini index for that chosen is selected as a splitting attribute. In the case of continuous-valued attributes, the strategy is to select each pair of adjacent values as a possible split-point and point with smaller gini index chosen as the splitting point. <br/>
