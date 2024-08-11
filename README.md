@@ -40,7 +40,7 @@ Attribute selection measure is a heuristic for selecting the splitting criterion
 1. Information Gain
 2. Gain Ratio
 3. Gini Index. <br/>
-<br/>
+
 * **Information Gain** <br/>
 Shannon invented the concept of entropy, which measures the impurity of the input set. In physics and mathematics, entropy referred as the randomness or the impurity in the system. In information theory, it refers to the impurity in a group of examples. Information gain is the decrease in entropy. Information gain computes the difference between entropy before split and average entropy after split of the dataset based on given attribute values. ID3 (Iterative Dichotomiser) decision tree algorithm uses information gain. <br/>
 
