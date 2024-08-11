@@ -51,3 +51,6 @@ C4.5, an improvement of ID3, uses an extension to information gain known as the 
 * **Gini Index** <br/>
 Another decision tree algorithm CART (Classification and Regression Tree) uses the Gini method to create split points. <br/>
 The Gini Index considers a binary split for each attribute. You can compute a weighted sum of the impurity of each partition. In case of a discrete-valued attribute, the subset that gives the minimum gini index for that chosen is selected as a splitting attribute. In the case of continuous-valued attributes, the strategy is to select each pair of adjacent values as a possible split-point and point with smaller gini index chosen as the splitting point. <br/>
+<br/>
+
+**Pruning** <br/>
