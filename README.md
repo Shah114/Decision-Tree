@@ -55,4 +55,4 @@ The Gini Index considers a binary split for each attribute. You can compute a we
 
 **Pruning** <br/>
 * Pre Pruning
-* * Post Pruning
+* Post Pruning
