@@ -65,4 +65,14 @@ In pre-pruning, we stop the tree construction a bit early. We prefer not to spli
 In post-pruning, we go deeper and deeper in the tree to build a complete tree. If the tree shows the overfitting problem then pruning is done as a post-pruning step. We use the cross-validation data to check the effect of our pruning. Using cross-validation data, we test whether expanding a node will result in improve or not. If it shows an improvement, then we can continue by expanding that node. But if it shows a reduction in accuracy then it should not be expanded. So, the node should be converted to a leaf node. <br/>
 <br/>
 
-
+**Pros VS. Cons** <br/>
+1. **Pros** <br/>
+* Decision trees are easy to interpret and visualize.
+* It can easily capture Non-linear patterns.
+* It requires fewer data preprocessing from the user, for example, there is no need to normalize columns.
+* It can be used for feature engineering such as predicting missing values, suitable for variable selection.
+* The decision tree has no assumptions about distribution because of the non-parametric nature of the algorithm.
+2. **Cons** <br/>
+* Sensitive to noisy data. It can overfit noisy data.
+* The small variation(or variance) in data can result in the different decision tree. This can be reduced by bagging and boosting algorithms.
+* Decision trees are biased with imbalance dataset, so it is recommended that balance out the dataset before creating the decision tree.
