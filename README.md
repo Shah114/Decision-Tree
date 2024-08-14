@@ -53,6 +53,9 @@ Another decision tree algorithm CART (Classification and Regression Tree) uses t
 The Gini Index considers a binary split for each attribute. You can compute a weighted sum of the impurity of each partition. In case of a discrete-valued attribute, the subset that gives the minimum gini index for that chosen is selected as a splitting attribute. In the case of continuous-valued attributes, the strategy is to select each pair of adjacent values as a possible split-point and point with smaller gini index chosen as the splitting point. <br/>
 <br/>
 
-**Pruning** <br/>
-* Pre Pruning
-* Post Pruning <br/>
+**Overfitting in Decision Tree algorithm** <br/>
+Overfitting is a practical problem while building a Decision-Tree model. The problem of overfitting is considered when the algorithm continues to go deeper and deeper to reduce the training-set error but results with an increased test-set error. So, accuracy of prediction for our model goes down. It generally happens when we build many branches due to outliers and irregularities in data. <br/>
+Two approaches which can be used to avoid overfitting are as follows: <br/>
+* Pre-Pruning
+* Post-Pruning <br/>
+
