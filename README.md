@@ -59,9 +59,9 @@ Two approaches which can be used to avoid overfitting are as follows: <br/>
 * Pre-Pruning
 * Post-Pruning <br/>
 
-1. Pre-Pruning <br/>
+1. **Pre-Pruning** <br/>
 In pre-pruning, we stop the tree construction a bit early. We prefer not to split a node if its goodness measure is below a threshold value. But it is difficult to choose an appropriate stopping point. <br/>
-2. Post-Pruning <br/>
+2. **Post-Pruning** <br/>
 In post-pruning, we go deeper and deeper in the tree to build a complete tree. If the tree shows the overfitting problem then pruning is done as a post-pruning step. We use the cross-validation data to check the effect of our pruning. Using cross-validation data, we test whether expanding a node will result in improve or not. If it shows an improvement, then we can continue by expanding that node. But if it shows a reduction in accuracy then it should not be expanded. So, the node should be converted to a leaf node. <br/>
 <br/>
 
