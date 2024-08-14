@@ -66,13 +66,13 @@ In post-pruning, we go deeper and deeper in the tree to build a complete tree. I
 <br/>
 
 **Pros VS. Cons** <br/>
-1. **Pros** <br/>
-* Decision trees are easy to interpret and visualize.
-* It can easily capture Non-linear patterns.
-* It requires fewer data preprocessing from the user, for example, there is no need to normalize columns.
-* It can be used for feature engineering such as predicting missing values, suitable for variable selection.
-* The decision tree has no assumptions about distribution because of the non-parametric nature of the algorithm.
-2. **Cons** <br/>
-* Sensitive to noisy data. It can overfit noisy data.
-* The small variation(or variance) in data can result in the different decision tree. This can be reduced by bagging and boosting algorithms.
-* Decision trees are biased with imbalance dataset, so it is recommended that balance out the dataset before creating the decision tree.
+1. **Pros** 
+  * Decision trees are easy to interpret and visualize.
+  * It can easily capture Non-linear patterns.
+  * It requires fewer data preprocessing from the user, for example, there is no need to normalize columns.
+  * It can be used for feature engineering such as predicting missing values, suitable for variable selection.
+  * The decision tree has no assumptions about distribution because of the non-parametric nature of the algorithm.
+2. **Cons**
+  * Sensitive to noisy data. It can overfit noisy data.
+  * The small variation(or variance) in data can result in the different decision tree. This can be reduced by bagging and boosting algorithms.
+  * Decision trees are biased with imbalance dataset, so it is recommended that balance out the dataset before creating the decision tree.
